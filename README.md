@@ -21,7 +21,7 @@ A compact, beginner-friendly Python learning repository. This home page provides
 .
 ├── Basics/
 │   ├── helper.py
-│   ├── list.py
+│   ├── lists.py
 │   ├── main.py
 │   └── README.md
 └── README.md
