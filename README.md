@@ -9,7 +9,7 @@ A compact, beginner-friendly Python learning repository. This home page provides
 
 ## Contents
 
-- [Basics](Basics/) — Starter examples for Python fundamentals, input/output, arithmetic, and module imports. **Status: Completed**
+- [Basics](Basics/) — Starter examples for Python fundamentals, input/output, arithmetic, module imports, and list operations. **Status: Completed**
 
 ## Quick Links
 
@@ -21,6 +21,7 @@ A compact, beginner-friendly Python learning repository. This home page provides
 .
 ├── Basics/
 │   ├── helper.py
+│   ├── list.py
 │   ├── main.py
 │   └── README.md
 └── README.md
