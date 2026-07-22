@@ -1,7 +1,7 @@
 # Python Basics Learning Examples
 
 ## Overview
-This folder contains beginner-friendly Python examples that introduce core programming concepts such as printing output, taking user input, performing arithmetic operations, assigning values to variables, and importing functions from another file.
+This folder contains beginner-friendly Python examples that introduce core programming concepts such as printing output, taking user input, performing arithmetic operations, assigning values to variables, importing functions from another file, and working with lists.
 
 ## Concepts Covered
 The examples in this folder demonstrate:
@@ -12,6 +12,8 @@ The examples in this folder demonstrate:
 - Using integer division and exponentiation
 - Importing and using functions from another Python file
 - Basic string formatting with f-strings
+- Creating, indexing, slicing, and modifying lists
+- Using lists of lists and list aliasing
 
 ## Learning Objectives
 By working through these examples, learners will be able to:
@@ -19,11 +21,13 @@ By working through these examples, learners will be able to:
 - Understand how user input works in Python
 - Perform basic calculations using operators
 - Organize code by separating helper functions into another file
+- Work with Python lists and understand common list operations
 - Recognize how Python programs are structured and executed
 
 ## File Descriptions
-- main.py: The main script that demonstrates printing, input handling, arithmetic calculations, variable assignment, and importing the greet() function from helper.py.
-- helper.py: A small helper module that stores a reusable greet() function used by main.py.
+- main.py: The main script that demonstrates printing, input handling, arithmetic calculations, variable assignment, importing the `greet()` function from helper.py, and calling `list_tutorial()` from lists.py.
+- helper.py: A small helper module that stores a reusable `greet()` function used by main.py.
+- lists.py: A list tutorial module that demonstrates list creation, indexing, slicing, appending, removing, list aliasing, clearing, and nested lists.
 
 ## How to Run the Examples
 1. Open a terminal or command prompt.
@@ -51,11 +55,40 @@ Multiplication of the numbers is:  50
 Division of the numbers is:  2.0
 Integer Division of the numbers is:  2
 Square of the numbers is:  100000
-Summation of the numbers is:  73
-Subtraction of the numbers is:  27
-Multiplication of the numbers is:  1150
-Division of the numbers is:  2.1739130434782608
+This is how to show a ' or a " in a string by using a backslash before it and for a new line use "\n" 
+see now?
+Adding strings with strings is called concatenation. For example: HelloWorld
+Repeating strings: For example: HelloHello Or you can do it like this: HelloHelloHello
+You can add string that are next to each other using (') 'Hi' 'there' '!'
+Hello WorldExtra
+Hello
+Hello, World!
 This line is from the Helper.py file: Hello! Welcome to the program.
+
+This is a tutorial for lists in Python
+Creating list:
+[1, 2, 3, 4, 5]
+4
+[3, 4]
+5
+Adding and removing elements from the list:
+[1, 2, 3, 4, 5, 6]
+[1, 2, 4, 5, 6]
+[1, 2, 4, 5, 9]
+Working with strings and lists:
+['red', 'green', 'blue']
+['red', 'green', 'blue']
+False
+['red', 'green', 'blue', 'yellow']
+['orange', 'purple', 'blue', 'yellow']
+[]
+4
+Working with lists of lists:
+['cat', 'dog', 'rabbit', 'parrot', 'eagle', 'sparrow']
+[['cat', 'dog', 'rabbit'], ['parrot', 'eagle', 'sparrow']]
+cat
+dog
+eagle
 ```
 
 ## Prerequisites
@@ -66,4 +99,5 @@ This line is from the Helper.py file: Hello! Welcome to the program.
 ## Notes
 - The script uses `int()` for arithmetic, so the inputs for calculations should be whole numbers.
 - The helper file must remain in the same folder as main.py for the import to work correctly.
+- The lists file must remain in the same folder as main.py for `list_tutorial()` to be imported and executed.
 - If you encounter an import error, make sure you are running the script from the Basics directory.
