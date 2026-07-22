@@ -98,6 +98,7 @@ eagle
 
 ## Notes
 - The script uses `int()` for arithmetic, so the inputs for calculations should be whole numbers.
-- The helper file must remain in the same folder as main.py for the import to work correctly.
-- The lists file must remain in the same folder as main.py for `list_tutorial()` to be imported and executed.
-- If you encounter an import error, make sure you are running the script from the Basics directory.
+- The helper file must remain in the same folder as `main.py` for the import to work correctly.
+- The lists file must remain in the same folder as `main.py` for `list_tutorial()` to be imported and executed.
+- If you encounter an import error, make sure you are running the script from the `Basics` directory.
+- The `main.py` script now runs both the helper greeting and the list tutorial when executed.

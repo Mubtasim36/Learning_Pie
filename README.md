@@ -11,6 +11,12 @@ A compact, beginner-friendly Python learning repository. This home page provides
 
 - [Basics](Basics/) — Starter examples for Python fundamentals, input/output, arithmetic, module imports, and list operations. **Status: Completed**
 
+## Project Progress
+
+- Basics examples are complete and updated to include a list tutorial in `Basics/lists.py`.
+- Root documentation has been refreshed to reflect active project changes.
+- Future topics remain planned for later repository expansion.
+
 ## Quick Links
 
 [![Basics](https://img.shields.io/badge/Basics-Open-blue?style=for-the-badge)](Basics/)
