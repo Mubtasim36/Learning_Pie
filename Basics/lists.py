@@ -45,3 +45,20 @@ def list_tutorial():
     print(wildlife[0])  # printing the first element of the list
     print(wildLives[0][1])  # printing the second element of the first list in the list of lists
     print(wildLives[1][1])  # printing the second element of the second list in the list of lists
+
+    Input_list = input("Enter a list of numbers separated by spaces: ")
+    Input_list = Input_list.split()  # splitting the input string into a list of strings
+    Input_list = [int(i) for i in Input_list]  # converting the list of strings into a list of integers
+    print("The list you entered is: ", Input_list)  # printing the whole list after changes
+
+    sum_list = sum(Input_list)  # calculating the sum of the list
+    print("The sum of the list is: ", sum_list)  # printing the sum of the list
+
+    max_list = ("Print max value of the list:", max(Input_list))  # calculating the maximum of the list
+    print(max_list)  # printing the maximum of the list
+    min_list = ("Print min value of the list:", min(Input_list))  # calculating the minimum of the list
+    print(min_list)  # printing the minimum of the list
+    sorted_list = ("Print sorted list:", sorted(Input_list))  # sorting the list
+    print(sorted_list)  # printing the sorted list
+
+
