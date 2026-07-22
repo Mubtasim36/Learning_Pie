@@ -10,12 +10,15 @@ A compact, beginner-friendly Python learning repository. This home page provides
 ## Contents
 
 - [Basics](Basics/) — Starter examples for Python fundamentals, input/output, arithmetic, module imports, and list operations. **Status: Completed**
+- Root examples — Additional standalone Python scripts for arithmetic, conditionals, and small tasks. **Status: Active**
 
 ## Project Progress
 
-- Basics examples are complete and updated to include a list tutorial in `Basics/lists.py`.
-- Root documentation has been refreshed to reflect active project changes.
-- Future topics remain planned for later repository expansion.
+- `Basics/` is the main tutorial folder and includes `main.py`, `helper.py`, and `lists.py`.
+- Root-level scripts such as `basicCalc.py`, `NumericConditionals.py`, `StringConditionals.py`, and `smallTasks.py` are available as standalone examples.
+- `main.py` in `Basics/` now demonstrates input handling, arithmetic, string operations, and imports both `helper` and `lists`.
+- `lists.py` provides a list tutorial covering creation, indexing, slicing, appending, removing, aliasing, clearing, and nested lists.
+- Root documentation has been refreshed to reflect the repository's current example scripts and progress.
 
 ## Quick Links
 

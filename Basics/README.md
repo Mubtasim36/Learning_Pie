@@ -24,10 +24,17 @@ By working through these examples, learners will be able to:
 - Work with Python lists and understand common list operations
 - Recognize how Python programs are structured and executed
 
+## Project Progress
+
+- `main.py` now runs both the core input/arithmetic tutorial and the `list_tutorial()` from `lists.py`.
+- `helper.py` continues to provide a shared `greet()` function for reusable output.
+- `lists.py` has been added to teach list creation, modification, aliasing, and nested list access.
+
 ## File Descriptions
 - main.py: The main script that demonstrates printing, input handling, arithmetic calculations, variable assignment, importing the `greet()` function from helper.py, and calling `list_tutorial()` from lists.py.
 - helper.py: A small helper module that stores a reusable `greet()` function used by main.py.
 - lists.py: A list tutorial module that demonstrates list creation, indexing, slicing, appending, removing, list aliasing, clearing, and nested lists.
+- `Basics/README.md`: Documents the Basics examples and includes sample output for both arithmetic and list tutorials.
 
 ## How to Run the Examples
 1. Open a terminal or command prompt.
